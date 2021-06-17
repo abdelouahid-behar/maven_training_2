@@ -2,7 +2,7 @@ package fr.lernejo.tester;
 
 import fr.lernejo.tester.api.TestMethod;
 
-public class basicTest {
+public class SomeLernejoTests {
 
     @TestMethod
     public void ok() {
@@ -11,7 +11,7 @@ public class basicTest {
 
     @TestMethod
     public void ko() {
-        throw new IllegalStateException("nope ");
+        throw new IllegalStateException("ko");
     }
 
     public void none() {
